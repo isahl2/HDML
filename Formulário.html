@@ -7,25 +7,67 @@
     <style>
         body{
             background-color: bisque;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <div><h1>Formulário</h1></div>
     <div class="Formulário">
-        <form action="Validar.html">
+        <form action="">
+            <!--Nome-->
             <div>
-            <label for="nome">Nome</label>
-            <input type="text" id="nome">
+            <label for="nome">Nome
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+        </label>
         </div>
+        <!--senha-->
         <div>
-            <label for="idade">Idade</label>
-            <input type="text" id="idade">
+            <label for="senha">Senha
+            <input type="password" id="senha" placeholder="Digite sua senha" required>
+        </label>
         </div>
+        <!--Email-->
         <div>
-            <label for="email">Email</label>
-            <input type="text" id="email">
+            <label for="email">Email
+            <input type="email" id="email" placeholder="Exemplo: @gmail.com" required>
+        </label>
         </div>
+        <!--Esporte-->
+        <div class="checkbox-option">
+            <input type="checkbox" name="interesse" id="esporte" value="esporte">
+        <label for="check">esporte</label>
+        </div>
+        <!--Filme-opção-->
+        <div  class="checkbox-option">
+            <input type="checkbox" name="interesse" id="filme" value="filme">
+            <label for="filme">Filme</label>
+        </div>
+        <!--Livro-opção-->
+        <div  class="checkbox-option">
+            <input type="checkbox" name="interesse" id="livro" value="livro">
+            <label for="livro">Livro</label>
+        </div>
+          <!--Radio-button-->
+    <div class="radio-option">
+        <input type="radio" id="terror" name="genero" value="terror">
+        <label for="terror">Filmes de terror</label>
+        </div>
+         <!--Radio-button-->
+        <div class="radio-option">
+            <input type="radio" id="novela" name="genero" value="novela">
+            <label for="novela">Novela</label>
+            </div>
+             <!--Radio-button-->
+            <div class="radio-option">
+                <input type="radio" id="acao" name="genero" value="acao">
+                <label for="acao">Filmes de ação</label>
+                </div>
+                <div>
+                    <label for="arquivo">Selecione arquivo</label>
+                    <input type="file" id="arquivo"> 
+                </div>
+        <!--Botões-->
         <div>
             <button type="submit">Enviar</button>
             <button type="reset">Apagar</button>
