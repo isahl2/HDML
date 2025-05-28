@@ -25,7 +25,27 @@ const questoes = [
         questao: "Por qual outro nome é conhecida a Nebulosa de Hélix?",
         opcoes: ["Olho de Deus", "Pilares da criação", "Andrômeda", "Nebulosa de Órion"],
         respostaCorreta: "Olho de Deus"
-    }
+    },
+    {
+        questao: " Qual desses corpos celestes é um satélite natural da Terra?",
+        opcoes: ["Sol", "Marte", "Lua", "Fobos"],
+        respostaCorreta: "Lua"
+    },
+   {
+        questao: "Qual o maior buraco negro já descoberto?",
+        opcoes: ["TON 618", "1E1740.7-2942", " Phoenix A", "S5 0014+81: "],
+        respostaCorreta: " Phoenix A"
+    },
+    {
+        questao: "Quantos planetas existem atualmente no Sistema Solar (segundo a classificação da IAU)?",
+        opcoes: ["10", "9", "7", "8: "],
+        respostaCorreta: "8"
+    },
+    {
+        questao: "Qual é o planeta mais próximo do Sol?",
+        opcoes: ["Vênus", "Mercúrio ", "Marte", "Saturno: "],
+        respostaCorreta: "Mercúrio "
+    } 
 ];
 
 let indiceQuestaoAtual = 0;
