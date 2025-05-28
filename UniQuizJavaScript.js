@@ -45,6 +45,16 @@ const questoes = [
         questao: "Qual é o planeta mais próximo do Sol?",
         opcoes: ["Vênus", "Mercúrio ", "Marte", "Saturno: "],
         respostaCorreta: "Mercúrio "
+    }, 
+    {
+        questao: " O que é uma supernova?",
+        opcoes: [" A explosão de uma estrela massiva no final de sua vida", "A formação de uma nova galáxia", "Um planeta com muita luz", "Um cometa muito brilhante: "],
+        respostaCorreta: "A explosão de uma estrela massiva no final de sua vida "
+    },
+    {
+        questao: "O que são os anos-luz?",
+        opcoes: ["A duração de um ano em Vênus", "A A velocidade da luz", "A distância que a luz percorre em um ano ", "O tempo que um planeta leva para girar: "],
+        respostaCorreta: "A distância que a luz percorre em um ano "
     } 
 ];
 
